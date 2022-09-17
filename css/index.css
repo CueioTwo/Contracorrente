@@ -15,6 +15,11 @@
 
 
 @font-face {
+    font-family: "WhiskeyBite-Duo";
+    src: url("../fontes/WhiskeyBite-Duo.otf");
+}
+
+@font-face {
     font-family: "Windlass";
     src: url("../fontes/Windlass.ttf");
 }
@@ -24,6 +29,11 @@
     color: aliceblue;
     font-size: 20px;
 }
+
 .roda{
     background-color:rgb(76, 194, 194);
+}
+
+h5{
+    font-family: "WhiskeyBite-Duo"
 }

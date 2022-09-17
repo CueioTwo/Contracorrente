@@ -1,3 +1,29 @@
-#Logo{
-                                                                                               
+#Logo {
+    max-height: 100px;
+}
+
+.conte {
+    background-color: aliceblue;
+}
+.cont {
+    background-color: rgb(255, 14, 14);
+}
+
+.navb {
+    background-color: rgb(76, 194, 194);
+}
+
+
+@font-face {
+    font-family: "Windlass";
+    src: url("../fontes/Windlass.ttf");
+}
+
+#Titulo {
+    font-family:"Windlass";
+    color: aliceblue;
+    font-size: 20px;
+}
+.roda{
+    background-color:rgb(76, 194, 194);
 }

@@ -4,44 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/index.css">
     <title>Contracorrente</title>
 </head>
 <body>
-    <div class="container-fluid">
-        <di class="row">
-            <div class="col-2">
-
-            </div>
-            <div class="col-8 cades">
-                <h1>Cadastre-se</h1>
-                <div class="row">
-                    <div class="col-2"></div>
-                    <div class="col-8 form rounded d-flex flex-column justify-content-center align-items-center">
-                        <form>
-                            <div class="form-group">
-                              <label for="exampleInputEmail1">Endereço de email</label>
-                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email" required>
-                              <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
-                            </div>
-                            <div class="form-group">
-                              <label for="exampleInputPassword1">Senha</label>
-                              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha" required>
-                            </div>
-                            <br>
-                            <button type="submit" class="btn btn-primary">Enviar</button>
-                          </form>
-                    </div>
-                    <div class="col-2"></div>
-                </div>
-                <div class="row"><p> </p></div>
-            </div>
-            <div class="col-2">
-
-            </div>
-        </di>
+<div class="container">
+    <div class="form-image">
+      <img src="../img/img-cad.jpg.png" alt="">
     </div>
+    <div class="form">
+      <form action="#">
+        <div class="form-header">
+          <div class="title">
+            <h1>Login</h1>
+          </div>
+          <div class="login-group">
+            <button><a href="#">Entrar</a></button>
+          </div>
+        <div class="input-grup">
+          <label for="primeiro-nome">Primeiro Nome</label>
+          <input type="text" id="primeiro-nome" name="primeiro-nome" placeholder="Informe o seu Primeiro Nome" required> 
+        </div>
+        <div class="input-grup">
+          <label for="sobrenome">Sobrenome</label>
+          <input type="text" id="sobrenome" name="sobrenome" placeholder="Informe o seu Sobrenome" required> 
+        </div>
+        <div class="input-grup">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Informe um Email" required> 
+        </div>
+        <div class="input-grup">
+          <label for="celular">Celular</label>
+          <input type="tel" id="celular" name="celular" placeholder="(xx) xxxx-xxxx" required> 
+        </div>
+        <div class="input-grup">
+          <label for="senha">Senha</label>
+          <input type="password" id="senha" name="senha" placeholder="Crie um Senha Forte" required> 
+        </div>
+        <div class="input-grup">
+          <label for="confir-senha">Repita sua Senha</label>
+          <input type="password" id="confir-senha" name="confir-senha" placeholder="Confirme sua Senha" required> 
+        </div>
+        </div>
+        <div class="gender-group">
+          <h1>Genêro</h1>
+          <div class="grnder-input">
+            <input type="radio" id="female" name="gender">
+            <label for="female">Femino</label>
+          </div>
+          <div class="grnder-input">
+            <input type="radio" id="male" name="gender">
+            <label for="male">Masculino</label>
+          </div>
+          <div class="grnder-input">
+            <input type="radio" id="other" name="gender">
+            <label for="other">Outro</label>
+          </div>
+          <div class="grnder-input">
+            <input type="radio" id="none" name="gender">
+            <label for="none">Prefiro não dizer</label>
+          </div>
+        </div>
+        <div class="confirm-button">
+          <button><a href="../index.html">Confirmar</a></button>
+        </div>
+      </form>
+    </div>
+</div>
+
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
   integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
   </script>

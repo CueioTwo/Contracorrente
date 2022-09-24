@@ -31,23 +31,13 @@
 }
 
 .roda{
-    background-color:rgb(76, 194, 194);
+    background-color: rgb(76, 194, 194);
 }
 
 h5{
     font-family: "WhiskeyBite-Duo"
 }
 
-h1{
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-family: "WhiskeyBite-Duo"
-}
-
-.form{
-    background-color: rgb(255, 255, 255);
-}
-
-.cades{
-    height: 100%;
+.title{
+    
 }

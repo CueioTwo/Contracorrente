@@ -29,12 +29,20 @@
     src: url("../fontes/Windlass.ttf");
 }
 
+@font-face {
+    font-family: "Dalek";
+    src: url("../fontes/Dalek.ttf");
+}
+
 #Titulo {
     font-family:"Windlass";
     color: aliceblue;
     font-size: 20px;
 }
 
+.title h2{
+    font-family: "Dalek";
+}
 h5{
     font-family: "WhiskeyBite-Duo"
 }
@@ -141,7 +149,8 @@ h5{
 .gender-title h4{
     font-size: 1.1rem;
     font-weight: 600;
-    color:#000000c0;
+    color: black;
+    font-family: "Dalek";
 }
 
 .input-box input::placeholder{
@@ -224,4 +233,12 @@ h5{
         flex-direction: column;
     }
 
+}
+
+.log{
+    background-color: rgb(252,213,170);
+}
+
+.log-input{
+    flex-direction: column;
 }

@@ -11,8 +11,13 @@
 .conte {
     background-color: aliceblue;
 }
+
+.img{
+    width: 100%;
+}
+
 .cont {
-    background-color: rgb(255, 14, 14);
+    
 }
 
 .navb, .roda {
@@ -36,7 +41,7 @@
 
 #Titulo {
     font-family:"Windlass";
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     font-size: 20px;
 }
 

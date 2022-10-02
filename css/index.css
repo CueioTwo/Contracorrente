@@ -10,14 +10,11 @@
 
 .conte {
     background-color: aliceblue;
+    
 }
 
 .img{
-    width: 100%;
-}
-
-.cont {
-    
+    height: 18rem;
 }
 
 .navb, .roda {
@@ -48,7 +45,7 @@
 .title h2{
     font-family: "Dalek";
 }
-h5{
+.roda_tex{
     font-family: "WhiskeyBite-Duo"
 }
 
@@ -216,6 +213,31 @@ h5{
     .form{
         width: 100%;
     }
+    .img_Perfil img{
+        width: 5.5rem !important; 
+    }
+    .titulo1 h1{
+        font-size: 23px;
+    } 
+    .nome h2, .resto h2{
+        font-size: 19px ;
+    }
+    .nome h2{ 
+        margin-left: 1.1rem;
+    }
+
+    .AMS img{
+        width: 100%;
+    }
+
+    .img{
+        width: 100%;
+    }
+
+    .autor img{
+        height: 14rem;
+    }
+    
 }
 
 @media screen and (max-width: 1064px){
@@ -238,6 +260,10 @@ h5{
         flex-direction: column;
     }
 
+    .autor img{
+        width: 100%;
+    }
+
 }
 
 .log{
@@ -246,4 +272,77 @@ h5{
 
 .log-input{
     flex-direction: column;
+}
+
+.imgP{
+    height: 26rem;
+}
+.imgRp{
+    width: 100%;
+}
+.nos{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.cracha{
+    border: 5px solid black;
+    background-color: rgb(255,133,0);
+    border-radius: 2%;
+    align-items: center;
+}
+
+.titulo1{
+    text-align: center;
+}
+.titulo1 h1, .nome h2, .resto h2, .img_Perfil figcaption{
+    font-family: "Dalek";
+    text-decoration: underline;
+}
+
+.nome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0%;
+}
+
+.img_Perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0%;
+    flex-direction: column;
+}
+.img_Perfil img{
+    width: 11rem;
+    border-radius: 9%;
+}
+
+.resto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.resto h2{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+}
+
+.AMS img{
+    height: 18rem;
+}
+
+p{
+    font-size: 18px;
+    color: black;
+}
+
+.autor img{
+    height: 14rem;
 }
